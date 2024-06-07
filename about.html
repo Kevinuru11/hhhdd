@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to Kevin's Website!</title>
+  <link rel="icon" type="image/png" href="imgs/favicon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="layout.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="home.html" class="active">Home</a>
+  <a href="porfolio.html">Porfolio</a>
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div class="text">
+  <h2> Who am I? </h2>
+  <div class="home">
+  <img src="imgs/question.png" width="317" height="244">
+</div>
+  <p>My Name is Kevin Uruchima, I was born in Queens, NYC on March 2, 2003. I have always had high interests in creating media as a little kid, be it art, editing, videos, or making simple program video games. I am currently an undergraduate student at Laguardia Community College for a Degree on New Media Technology - New Media. I plan on going to FIT (Fashion Insitiute of Technology) once I earn my degree to continue learning.</p>
+  <h2> What tools do you know? </h2>
+    <p>
+    Photoshop, Ilustrator, After Effects, Premiere Pro
+  </p>
+  <p>
+    Blender, Clip Studio Paint
+  </p>
+  <h2> What are my goals? </h2>
+  I want to become a professional artist/animator for my own personal projects, as well as learn a little bit of everything be it making music, sculpting, concepts etc.
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+<footer class="writeFooter">
+    <div id="contact">
+      <h1>Contact Me!</h1>
+      <a href="mailto:kevinuru11@gmail.com" class="fa fa-envelope" title="E-mail" aria-hidden="true"></a><span class="sr-only">E-mail</span>
+    </div>
+        <div class="copyright"><p id="date">©Kevin Uruchima (2024)</p></div>
+</footer> 
+  
+  </div>
+</footer>
+</html>
+
+

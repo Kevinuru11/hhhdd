@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to My Website!</title>
+  <link rel="icon" type="image/png" href="imgs/favicon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="layout.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+  <a href="home.html" class="active">Home</a>
+  <a href="porfolio.html">Porfolio</a>
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div class="text">
+<h1> Welcome to Kevin Uruchima's Website!</h1>
+<p> Click around to see what's new!</p>
+<div class="home">
+<a href="porfolio.html"><img src="imgs/Chikorita2.gif"></a>
+</div>
+</div>
+</body>
+
+<footer class="writeFooter">
+  <div class="container"></div>
+    <div id="contact">
+      <h1>Contact Me!</h1>
+      <a href="mailto:kevinuru11@gmail.com" class="fa fa-envelope" title="E-mail" aria-hidden="true"></a><span class="sr-only">E-mail</span>
+    </div>
+        <div class="copyright"><p id="date">©Kevin Uruchima (2024)</p></div>
+</footer> 
+  <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+  </div>
+</footer>
+</html>

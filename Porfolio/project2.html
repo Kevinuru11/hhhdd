@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to Kevin's Website!</title>
+  <link rel="icon" type="image/png" href="../imgs/favicon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="../layout.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<div class="topnav" id="myTopnav">
+  <a href="../Home.html" class="active">Home</a>
+  <a href="../porfolio.html">Porfolio</a>
+  <a href="../contact.html">Contact</a>
+  <a href="../about.html">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<body>
+	<div class="text">
+<h1>(Project 2) The Dog That Couldn't :(</h1>
+<img src="../imgs/project2.jpg" width="50%">
+<p> Dog who's done some bad things (It was out of his control).</p>
+<p> (Done on Photoshop.)</p>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+<footer class="writeFooter">
+    <div id="contact">
+      <h1>Contact Me!</h1>
+      <a href="mailto:kevinuru11@gmail.com" class="fa fa-envelope" title="E-mail" aria-hidden="true"></a><span class="sr-only">E-mail</span>
+    </div>
+        <div class="copyright"><p id="date">©Kevin Uruchima (2024)</p></div>
+</footer> 
+  
+  </div>
+</footer>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to Kevin's Website!</title>
+  <link rel="icon" type="image/png" href="imgs/favicon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="layout.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+  <a href="home.html" class="active">Home</a>
+  <a href="porfolio.html">Porfolio</a>
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div class="text">
+  <h1> Porfolio </h1>
+  <p> Mixed with Class Assignments and Requested/Commission art. (Click for more info!)</p>
+  <div class="gallerylinks newsmargin">
+     <div>
+      <a class="basicbutton allworkbutton" href="porfolio.html">
+      </a>
+  </div>
+    <div>
+      <a class="basicbutton projectsbutton" href="collegeprojects.html">
+      </a>
+  </div>
+    <div>
+      <a class="basicbutton artworkbutton" href="artwork.html">
+      </a>
+  </div>
+</div>
+<div id="flex">
+	<main>
+		<center>
+<div class="gallery">
+<div>
+	<a href="Porfolio/project1.html"><img src="imgs/project1.jpg"></a>
+</div>
+<div>
+	<a href="Porfolio/project2.html"><img src="imgs/project2.jpg"></a>
+</div>
+<div>
+<a href="Porfolio/project3.html"><img src="imgs/project3.png"></a>
+</div>
+<div>
+	<a href="Porfolio/project4.html"><img src="imgs/project4.png"></a>
+</div>
+  <div>
+  <a href="Porfolio/project6.html"><img src="imgs/alien.gif"></a>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</center>
+</main>
+</body>
+<footer class="writeFooter">
+    <div id="contact">
+      <h1>Contact Me!</h1>
+      <a href="mailto:kevinuru11@gmail.com" class="fa fa-envelope" title="E-mail" aria-hidden="true"></a><span class="sr-only">E-mail</span>
+    </div>
+        <div class="copyright"><p id="date">©Kevin Uruchima (2024)</p></div>
+</footer> 
+  
+  </div>
+</footer>
+</html>

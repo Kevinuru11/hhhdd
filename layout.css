@@ -1,0 +1,366 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+*
+ {
+  box-sizing: border-box;
+ }
+body {
+  background-image: url('imgs/bg image1.png');
+  margin: 0;
+  font-family:"Raleway", serif; ;
+  font-size: 25px;
+  background-color: #a1c6ea;
+
+
+}
+
+p {
+   font-family:"Raleway", serif; ;
+  font-size: 25px;
+}
+ .text {
+  text-align: center;
+    width: 100%;
+  height: auto;
+}
+main {
+  width: auto;
+padding: 10px;
+background-color: #5d9b98;
+}
+ @media only screen
+ {
+img {
+    transition:transform 0.25s ease;
+}
+
+.gallery img:hover {
+  transform:scale(1.1); 
+  object-fit:contain; 
+}
+}
+.gallery {
+   line-height:1.1;
+   column-count:5;
+   column-gap:10px;
+}
+.gallery img {
+   width: 100% ;
+   height: auto ;
+   margin-bottom:10px;
+ }
+
+
+
+
+
+ .gallerylinks {
+  display: flex;
+  justify-content: center;
+}
+.newsmargin {
+  width: auto;
+  margin: 15px;
+}
+ .artworkbutton {
+  background-image: url("imgs/artworkbanner.png");
+}
+ .projectsbutton {
+  background-image: url("imgs/collegebanner.png");
+}
+.allworkbutton {
+  background-image: url("imgs/allworkbanner.png");
+}
+.basicbutton {
+  display: block;
+  height: 120px;
+  width: 300px;
+  margin: 5px;
+  background-size: 100% 100%;
+}
+.basicbutton:hover {
+    transform:scale(1.1); 
+  object-fit:contain; 
+  transition:transform 0.25s ease;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 920px) {
+  .basicbutton {
+  display: block;
+  height: 100px;
+  width: 250px;
+  margin: 5px;
+  background-size: 100% 100%;
+}
+}
+@media screen and (max-width: 778px) {
+  .basicbutton {
+  display: block;
+  height: 80px;
+  width: 200px;
+  margin: 5px;
+  background-size: 100% 100%;
+}
+.gallery {
+   line-height:1.1;
+   column-count:3;
+   column-gap:10px;
+}
+}
+@media screen and (max-width: 624px) {
+  .basicbutton {
+  display: block;
+  height: 60px;
+  width: 150px;
+  margin: 5px;
+  background-size: 100% 100%;
+}
+.gallery {
+   line-height:1.1;
+   column-count:2;
+   column-gap:10px;
+}
+}
+@media screen and (max-width: 624px) {
+  .basicbutton {
+  display: block;
+  height: 60px;
+  width: 150px;
+  margin: 5px;
+  background-size: 100% 100%;
+}
+}
+@media screen and (max-width: 472px) {
+  .basicbutton {
+  display: block;
+  height: 50px;
+  width: 124px;
+  margin: 5px;
+  background-size: 100% 100%;
+}
+}
+@media screen and (max-width: 402px) {
+  .basicbutton {
+  display: block;
+  height: 45px;
+  width: 112px;
+  margin: 5px;
+  background-size: 100% 100%;
+}
+}
+
+
+ .topnav {                               
+  overflow: hidden;
+  background-color: #73a9a6;
+  position: relative;
+}
+topnav #myLinks { 
+                    
+  display: none;
+}
+.topnav a {
+  color: #E7FCFF;
+  padding: 2vh 4vw;
+  font-size: 28px;
+  display: block;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  transform:scale(1.1); 
+  object-fit:contain; 
+  transition:transform 0.25s ease;
+}
+.topnav a.active:hover {
+  background-color: #ddd;
+  color: black;
+  transform:scale(1.1); 
+  object-fit:contain; 
+  transition:transform 0.25s ease;
+}
+.topnav a.icon {                     
+  background: #3a7477;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+@media only screen  {         
+  
+  #logo {                          
+    display: none;  
+  }
+  
+  .topnav {                      
+    text-align: center;  
+  }
+  
+  .topnav #myLinks {                 
+    display: inline-block;
+    
+  }
+  
+  .topnav a {
+    display: inline-block;  
+  }
+  
+  .topnav a.icon {                
+    display: none;  
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+
+}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+display: block;
+    text-align: center;
+}
+  }
+}
+
+
+
+
+
+
+}
+
+.copyright {
+  padding: 1vh 0;
+  text-align: center;
+  color: #737373;
+}
+
+.copyright p {
+  font-size: 25px;
+}
+
+@media (max-width: 800px) {
+  .copyright p {
+    font-size: 16px;
+  }
+  }
+
+
+
+
+
+
+  #contact {
+  background-color:#a5cb9e;
+  min-height: 17vh;
+  text-align: center;
+}
+
+#contact a:link, #contact a:visited {
+  color: #fafafa;
+}
+
+#contact a:hover, #contact a:active {
+  color:#62bb64;
+}
+
+#contact a {
+  font-size: 4vh;
+}
+
+#contact h1{
+  font-size: 5vh;
+  padding: 1vh 0vw;
+}
+
+/* for icons that don't use fontawesome */
+
+#bsky {
+  display: inline-block;
+  background: url("/img/bsky.svg") no-repeat center center;
+  height: 3vh;
+  width: 4vh;
+}
+
+#bsky:hover {
+  background-image: url("/img/bsky-hover.svg");
+}
+
+
+
+
+
+
+}
+
+footer {
+  margin-top: auto;
+
+}
+
+.copyright {
+  padding: 2vh 0;
+  text-align: center;
+  color: #737373;
+  background-color: #1A1A1A;
+}
+
+.copyright p {
+  font-size: 25px;
+}
+
+@media (max-width: 800px) {
+  .copyright p {
+    font-size: 16px;
+  }
+  }
+@media (max-width: 750px) {
+img {
+width: 78%;
+height: auto;
+}
+}
+body {
+min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+@media (max-width: 750px) {
+  .home {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:60%;
+height: auto;
+text-align: center;
+}
+}
+.color
+a:link {
+  color:#222e4f;  
+}
